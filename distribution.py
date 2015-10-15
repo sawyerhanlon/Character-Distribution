@@ -1,6 +1,6 @@
 """
 distribution.py
-Author: <your name here>
+Author: Sawyer Hanlon
 Credit: <list sources used, if any>
 
 Assignment:
@@ -40,6 +40,7 @@ import string
 alph = string.ascii_lowercase
 
 string = input("Please enter a string of text (the bigger the better): ")
+print("Alina is dum")
 
         
 

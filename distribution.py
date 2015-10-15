@@ -39,8 +39,11 @@ Notice about this example:
 import string
 alph = string.ascii_lowercase
 
-string = input("Please enter a string of text (the bigger the better): ")
-print("Alina is dum")
+y = input("Please enter a string of text (the bigger the better): ")
+for x in alph:
+    z = y.count(x)
+list(x 
+    
 
         
 

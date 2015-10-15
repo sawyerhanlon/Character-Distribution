@@ -38,11 +38,23 @@ Notice about this example:
 """
 import string
 alph = string.ascii_lowercase
+b = 0
+
+char = [] 
+dis = []
 
 y = input("Please enter a string of text (the bigger the better): ")
+print('The distribution of characters in "{0}" is: '.format(y))
 for x in alph:
-    z = y.count(x)
-list(x 
+    dis.append(y.count(x))
+
+for c in dis:
+    while c > 0:
+        char.append(alph[b])
+        c -= 1
+    b += 1
+print(char)
+
     
 
         

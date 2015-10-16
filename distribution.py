@@ -43,7 +43,7 @@ b = 0
 char = [] 
 dis = []
 
-y = input("Please enter a string of text (the bigger the better): ")
+y = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "{0}" is: '.format(y))
 for x in alph:
     dis.append(y.count(x))

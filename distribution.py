@@ -38,7 +38,6 @@ Notice about this example:
 """
 import string
 alph = string.ascii_lowercase
-b = 0
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 dis = []
 y = input("Please enter a string of text (the bigger the better): ").lower()
@@ -46,7 +45,9 @@ print('The distribution of characters in "{0}" is: '.format(y))
 for x in alph:
     dis.append(y.count(x))
 ziplist = zip(dis,alphabet)
-print(list(ziplist))
+for z in ziplist:
+    if z[0] > 0:
+        print(z[0]*z[1])
 
 
     

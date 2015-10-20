@@ -46,7 +46,7 @@ for x in alphabet:
 ziplist = zip(dis,alphabet)
 for z in ziplist:
     if z[0] > 0:
-        print(z[0]*z[1])
+        print(z[1]*z[0])
 
 
     

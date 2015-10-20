@@ -38,10 +38,11 @@ Notice about this example:
 """
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 dis = []
-y = input("Please enter a string of text (the bigger the better): ").lower()
+y = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "{0}" is: '.format(y))
-for x in alph:
-    dis.append(y.count(x))
+z = ("{0}".format(y)).lower() 
+for x in alphabet:
+    dis.append(z.count(x))
 ziplist = zip(dis,alphabet)
 for z in ziplist:
     if z[0] > 0:

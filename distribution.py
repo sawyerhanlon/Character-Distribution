@@ -44,9 +44,15 @@ z = ("{0}".format(y)).lower()
 for x in alphabet:
     dis.append(z.count(x))
 ziplist = zip(dis,alphabet)
-for z in ziplist:
-    if z[0] > 0:
-        print(z[1]*z[0])
+w = len(y)
+while w > 0:
+    for z in ziplist
+    
+
+
+#for z in ziplist:
+    #if z[0] > 0:
+        #print(z[1]*z[0])
 
 
     

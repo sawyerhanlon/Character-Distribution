@@ -51,7 +51,8 @@ while w > 0:
         if z[0] == w:
             final.append(z[1]*z[0])
     w -= 1
-print(final)
+for x in final:
+    print(x)
 
 
     

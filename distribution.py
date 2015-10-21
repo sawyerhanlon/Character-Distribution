@@ -41,7 +41,7 @@ dis = []
 final = []
 y = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "{0}" is: '.format(y))
-z = ("{0}".format(y)).lower() 
+z = y.lower() 
 for x in alphabet:
     dis.append(z.count(x))
 ziplist = zip(dis,alphabet)
@@ -53,10 +53,3 @@ while w > 0:
     w -= 1
 for x in final:
     print(x)
-
-
-    
-
-        
-
-   

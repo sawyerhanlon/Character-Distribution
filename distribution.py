@@ -46,13 +46,10 @@ for x in alphabet:
 ziplist = zip(dis,alphabet)
 w = len(y)
 while w > 0:
-    for z in ziplist
-    
-
-
-#for z in ziplist:
-    #if z[0] > 0:
-        #print(z[1]*z[0])
+    for z in ziplist:
+        if z == w:
+            print(z[1]*z[0])
+    w -= 1
 
 
     

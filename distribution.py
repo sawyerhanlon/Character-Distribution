@@ -44,7 +44,7 @@ print('The distribution of characters in "{0}" is: '.format(y))
 z = y.lower() 
 for x in alphabet:
     dis.append(z.count(x))
-list(ziplist = zip(dis,alphabet))
+ziplist = list(zip(dis,alphabet))
 w = len(y)
 while w > 0:
     for z in ziplist:

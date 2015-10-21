@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Sawyer Hanlon
-Credit: <list sources used, if any>
+Credit: Mr D, Jeff
 
 Assignment:
 

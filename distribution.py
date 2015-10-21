@@ -38,6 +38,7 @@ Notice about this example:
 """
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 dis = []
+final = []
 y = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "{0}" is: '.format(y))
 z = ("{0}".format(y)).lower() 
@@ -47,9 +48,10 @@ ziplist = zip(dis,alphabet)
 w = len(y)
 while w > 0:
     for z in ziplist:
-        if z == w:
-            print(z[1]*z[0])
+        if z[0] == w:
+            final.append(z[1]*z[0])
     w -= 1
+print(final)
 
 
     
